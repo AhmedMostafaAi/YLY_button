@@ -1,6 +1,8 @@
 
 body { 
-background: linear-gradient(to right, rgb(87, 74, 226), rgb(34, 42, 104))
+/* background: linear-gradient(to right, rgb(21, 0, 252), rgb(0, 30, 255)) */
+background-color: #060674;
+
 }
 
 .keys {
@@ -31,7 +33,7 @@ background: linear-gradient(to right, rgb(87, 74, 226), rgb(34, 42, 104))
     }
  
 footer{
-    padding-top: 30rem;
+    padding-top: 50%;
 } 
 footer .foot-text{
     display: flex;
@@ -55,4 +57,36 @@ footer .foot-p{
 .media img:hover{
 transform: scale(1.2);
 }
+.logo img{
+  position: fixed;
+width: 5rem;
+height: 5rem;
+}
+.up img{
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  bottom: 4%;
+}
+h6{
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0.1px;
+  color: #FBB400;
+}
 
+.left-element {
+  position: fixed;
+  top: 3%; /* Adjust top position as needed */
+  left: 3%; /* Adjust left position as needed */
+}
+
+.right-element {
+  width: 5rem;
+height: 5rem;
+  position: fixed;
+  top: 3%; /* Adjust top position as needed */
+  right: 5%; /* Adjust right position as needed */
+}
